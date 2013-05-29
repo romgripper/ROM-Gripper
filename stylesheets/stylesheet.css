@@ -109,7 +109,7 @@ footer p {
 }
 
 a {
-  text-decoration: none;
+  text-decoration: underline;
   color: #007edf;
   text-shadow: none;
 
