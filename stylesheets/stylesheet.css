@@ -220,7 +220,7 @@ hr {
 }
 
 table {
-  margin-bottom: 20px;
+  margin-bottom: 0px;
   text-align: left;
  }
 
@@ -294,7 +294,7 @@ Full-Width Styles
   font-weight: 300;
   background: none;
   text-shadow: #111 0px 0px 10px;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 #downloads {
@@ -343,7 +343,7 @@ Full-Width Styles
 }
 
 #main_content {
-  padding-top: 40px;
+  padding-top: 10px;
 }
 
 #footer_wrap {
