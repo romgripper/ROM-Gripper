@@ -1,5 +1,8 @@
 <romgripper>
-	<version>X.X</version>
-	<change>Update 1</change>
-	<change>Update 2</change>
+	<version>3.5</version>
+	<change>Refine the game type order</change>
+	<change>ROM list auto update from server</change>
+	<change>Add home page link</change>
+	<change>Add Share button</change>
+	<change>Easy to look for emulator app</change>
 </romgripper>

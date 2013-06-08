@@ -1,6 +1,8 @@
 <romgripper>
-	<version>X.X</version>
-	<change>更新内容 1</change>
-	<change>更新内容 2</change>
-	<change>更新内容 3</change>
+	<version>3.5</version>
+	<change>优化模拟器顺</change>
+	<change>游戏列表自动更新</change>
+	<change>增加主页链接</change>
+	<change>增加分享按钮</change>
+	<change>方便查找模拟器软件</change>
 </romgripper>
