@@ -1,7 +1,8 @@
 <gamelist>
 	<!--disabled/-->
 	<version>2.0</version>
-	<change>Refine the game type order</change>
-	<change>ROM list auto update from server</change>
-	<change>Add Pokemon Creepy Black to GBC</change>
+	<change>1. Refine the game type order</change>
+	<change>2. ROM list auto update from server</change>
+	<change>3. Add Pokemon Creepy Black to GBC</change>
+	<url>http://romgripper.github.io/ROM-Gripper/en/gamelist.html</url>
 </gamelist>

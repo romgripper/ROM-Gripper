@@ -1,8 +1,9 @@
 <romgripper>
 	<version>3.5</version>
-	<change>Refine the game type order</change>
-	<change>ROM list auto update from server</change>
-	<change>Add home page link</change>
-	<change>Add Share button</change>
-	<change>Easy to look for emulator app</change>
+	<change>1. Refine the game type order</change>
+	<change>2. ROM list auto update from server</change>
+	<change>3. Add home page link</change>
+	<change>4. Add Share button</change>
+	<change>5. Easy to look for emulator app</change>
+	<url>http://romgripper.github.io/ROM-Gripper/en/romgripper.html</url>
 </romgripper>
