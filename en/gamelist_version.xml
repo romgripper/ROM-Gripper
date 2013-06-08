@@ -1,5 +1,5 @@
 <gamelist>
-	<!--disabled/-->
+	<disabled/>
 	<version>2.0</version>
 	<change>1. Refine the game type order</change>
 	<change>2. ROM list auto update from server</change>
