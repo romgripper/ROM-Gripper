@@ -1,8 +1,8 @@
 <gamelist>
 	<disabled/>
-	<version>2.0</version>
-	<change>1.优化模拟器顺序</change>
-	<change>2.游戏列表自动更新</change>
-	<change>3.增加GBC游戏Pokemon Creepy Black</change>
+	<version>2.0.2</version>
+	<change>1.修改布局</change>
+	<change>2.修复加载ROM列表时崩溃的bug</change>
+	<change>3.去处Mobclix广告及其所需的权限</change>
 	<url>http://romgripper.github.io/ROM-Gripper/zh/gamelist.html</url>
 </gamelist>
