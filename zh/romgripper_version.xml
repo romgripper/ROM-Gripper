@@ -1,9 +1,6 @@
 <romgripper>
-	<version>3.5</version>
-	<change>1.优化模拟器顺序</change>
-	<change>2.游戏列表自动更新</change>
-	<change>3.增加主页链接</change>
-	<change>4.增加分享按钮</change>
-	<change>5.方便查找模拟器软件</change>
+	<version>3.5.1</version>
+	<change>1.修复了用户总被提示更新的bug</change>
+	<change>2.增加“手动搜索“按钮</change>
 	<url>http://romgripper.github.io/ROM-Gripper/zh/romgripper.html</url>
 </romgripper>

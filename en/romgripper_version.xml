@@ -1,9 +1,6 @@
 <romgripper>
-	<version>3.5</version>
-	<change>1. Refine the game type order</change>
-	<change>2. ROM list auto update from server</change>
-	<change>3. Add home page link</change>
-	<change>4. Add Share button</change>
-	<change>5. Easy to look for emulator app</change>
+	<version>3.5.1</version>
+	<change>1. Fix that user is always asked to upgrade</change>
+	<change>2. Add "Manual search" button</change>
 	<url>http://romgripper.github.io/ROM-Gripper/en/romgripper.html</url>
 </romgripper>
