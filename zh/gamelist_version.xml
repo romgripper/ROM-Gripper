@@ -1,8 +1,7 @@
 <gamelist>
 	<disabled/>
-	<version>2.0.2</version>
-	<change>1.修改布局</change>
-	<change>2.修复加载ROM列表时崩溃的bug</change>
-	<change>3.去处Mobclix广告及其所需的权限</change>
+	<version>2.1</version>
+	<change>1. 增加了PC Engine - TurboGrafx16游戏列表</change>
+	<change>2. 优化了GameCube列表，并能显示其游戏截屏</change>
 	<url>http://romgripper.github.io/ROM-Gripper/zh/gamelist.html</url>
 </gamelist>

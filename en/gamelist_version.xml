@@ -1,8 +1,7 @@
 <gamelist>
 	<disabled/>
-	<version>2.0.2</version>
-	<change>1. Remove Mobclix ads and its permission</change>
-	<change>2. Fix a crash bug when loading ROM list</change>
-	<change>3. Change layout</change>
+	<version>2.1</version>
+	<change>1. Add PC Engine - TurboGrafx16 games</change>
+	<change>2. Refine the list of GameCube and show screenshots</change>
 	<url>http://romgripper.github.io/ROM-Gripper/en/gamelist.html</url>
 </gamelist>
