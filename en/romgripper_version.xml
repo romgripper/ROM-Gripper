@@ -1,6 +1,5 @@
 <romgripper>
-	<version>3.5.1</version>
-	<change>1. Fix that user is always asked to upgrade</change>
-	<change>2. Add "Manual search" button</change>
+	<version>3.6</version>
+	<change>1. Add GameCube games</change>
 	<url>http://romgripper.github.io/ROM-Gripper/en/romgripper.html</url>
 </romgripper>

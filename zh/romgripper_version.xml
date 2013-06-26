@@ -1,6 +1,5 @@
 <romgripper>
-	<version>3.5.1</version>
-	<change>1.修复了用户总被提示更新的bug</change>
-	<change>2.增加“手动搜索“按钮</change>
+	<version>3.6</version>
+	<change>1.增加GameCube游戏</change>
 	<url>http://romgripper.github.io/ROM-Gripper/zh/romgripper.html</url>
 </romgripper>
