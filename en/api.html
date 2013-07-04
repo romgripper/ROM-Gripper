@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset='utf-8' />
+	<meta http-equiv="X-UA-Compatible" content="chrome=1" />
+	<meta name="description" content="Rom-gripper : ROM Gripper官方网站" />
+
+	<link rel="stylesheet" type="text/css" media="screen" href="../stylesheets/stylesheet.css">
+	<script language="javascript" src="../javascripts/googleAnalytics.js"></script>
+
+	<title>ROM Gripper Offcial Website</title>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+	<h1 id="project_title"><img src="../favicon.png" width="64" height="64" style="margin-right: 20px"/>ROM Gripper's Home</h1>
+	<table>
+	<tr>
+		<td valgin="middle">
+			<h3><a href="romgripper.html">ROM Gripper</a></h3>
+		</td>
+		<td valgin="middle">
+			<h3><a href="gamelist.html" style="margin-left: 20px">Emulator Game List</a></h3>
+		</td>
+		<td valgin="middle">
+			<h3><a href="emulators.html" style="margin-left: 20px">Emulators</a></h3>
+		</td>
+		<td valgin="middle">
+			<h3><a href="faq.html" style="margin-left: 20px">FAQ</a></h3>
+		</td>
+		<td valgin="middle">
+			<h3><a href="../zh/gamelist.html" style="margin-left: 20px">[中文]</a></h3>
+		</td>
+	</tr>
+	<tr>
+		<td colspan="3" valgin="middle">
+			<h3><a href="api.html">Open API for Emulator Developer</a></h3>
+		</td>
+	</tr>
+	</table>            
+	<h3 id="project_tagline">Open API for Emulator Developer</h3>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+	<h4>Sample Codes</h4>
+	<h6>To open a ROM list of a certain emulator type, use the following codes:</h6>
+	<p style="background: #bbb; padding: 10px 30px">Intent intent = new Intent("com.bingo.rom_gripper.action.ROM_LIST");<br/>
+	Intent.putExtra("romtype", <b>romType</b>);<br/>
+	startActivity(intent);</p>
+	<h4>ROM types that Emulator Game List supports</h4>
+	<div style="padding: 0px 30px">
+	<table style="border: 1">
+	<tr>
+		<th align="center" style="padding: 0px 10px; background: #505050">
+			romType
+		</th>
+		<th align="center" style="padding: 0px 10px; background: #606060">
+			Game type
+		</th>
+	</tr>
+	<tr>
+		<td align="center" style="padding: 0px 10px; background: #808080">
+			"nes"
+		</td>
+		<td align="center" style="padding: 0px 10px; background: #909090">
+			Nintendo
+		</td>
+	</tr>
+	<tr>
+		<td align="center" style="padding: 0px 10px; background: #a0a0a0">
+			"snes"
+		</td>
+		<td align="center" style="padding: 0px 10px; background: #b0b0b0">
+			Super Nintendo
+		</td>
+	</tr>
+	<tr>
+		<td align="center" style="padding: 0px 10px; background: #808080">
+			"n64"
+		</td>
+		<td align="center" style="padding: 0px 10px; background: #909090">
+			Nintendo 64
+		</td>
+	</tr>
+	<tr>
+		<td align="center" style="padding: 0px 10px; background: #a0a0a0">
+			"nds"
+		</td>
+		<td align="center" style="padding: 0px 10px; background: #b0b0b0">
+			Nintendo DS
+		</td>
+	</tr>
+	<tr>
+		<td align="center" style="padding: 0px 10px; background: #808080">
+			"gba"
+		</td>
+		<td align="center" style="padding: 0px 10px; background: #909090">
+			Gameboy Advance
+		</td>
+	</tr>
+	<tr>
+		<td align="center" style="padding: 0px 10px; background: #a0a0a0">
+			"gbc"
+		</td>
+		<td align="center" style="padding: 0px 10px; background: #b0b0b0">
+			Gameboy Color
+		</td>
+	</tr>
+	<tr>
+		<td align="center" style="padding: 0px 10px; background: #808080">
+			"gamegear"
+		</td>
+		<td align="center" style="padding: 0px 10px; background: #909090">
+			Sega Game Gear
+		</td>
+	</tr>
+	<tr>
+		<td align="center" style="padding: 0px 10px; background: #a0a0a0">
+			"genesis"
+		</td>
+		<td align="center" style="padding: 0px 10px; background: #b0b0b0">
+			Sega Genesis
+		</td>
+	</tr>
+	<tr>
+		<td align="center" style="padding: 0px 10px; background: #808080">
+			"cps1"
+		</td>
+		<td align="center" style="padding: 0px 10px; background: #909090">
+			CPS1
+		</td>
+	</tr>
+	<tr>
+		<td align="center" style="padding: 0px 10px; background: #a0a0a0">
+			"cps2"
+		</td>
+		<td align="center" style="padding: 0px 10px; background: #b0b0b0">
+			CPS2
+		</td>
+	</tr>
+	<tr>
+		<td align="center" style="padding: 0px 10px; background: #808080">
+			"mame"
+		</td>
+		<td align="center" style="padding: 0px 10px; background: #909090">
+			MAME
+		</td>
+	</tr>
+	<tr>
+		<td align="center" style="padding: 0px 10px; background: #a0a0a0">
+			"neogeo"
+		</td>
+		<td align="center" style="padding: 0px 10px; background: #b0b0b0">
+			Neo Geo
+		</td>
+	</tr>
+	<tr>
+		<td align="center" style="padding: 0px 10px; background: #808080">
+			"neogeocd"
+		</td>
+		<td align="center" style="padding: 0px 10px; background: #909090">
+			Neo Geo CD
+		</td>
+	</tr>
+	<tr>
+		<td align="center" style="padding: 0px 10px; background: #a0a0a0">
+			"neogeopocket
+		</td>
+		<td align="center" style="padding: 0px 10px; background: #b0b0b0">
+			Neo Geo Pocket
+		</td>
+	</tr>
+	<tr>
+		<td align="center" style="padding: 0px 10px; background: #808080">
+			"psp"
+		</td>
+		<td align="center" style="padding: 0px 10px; background: #909090">
+			Playstation Portable
+		</td>
+	</tr>
+	<tr>
+		<td align="center" style="padding: 0px 10px; background: #a0a0a0">
+			"psx"
+		</td>
+		<td align="center" style="padding: 0px 10px; background: #b0b0b0">
+			Sony Playstation
+		</td>
+	</tr>
+	<tr>
+		<td align="center" style="padding: 0px 10px; background: #808080">
+			"gcn"
+		</td>
+		<td align="center" style="padding: 0px 10px; background: #909090">
+			Nintendo GameCube
+		</td>
+	</tr>
+	<tr>
+		<td align="center" style="padding: 0px 10px; background: #a0a0a0">
+			"pce"
+		</td>
+		<td align="center" style="padding: 0px 10px; background: #b0b0b0">
+			PC Engine - TurboGrafx16
+		</td>
+	</tr>
+	<tr>
+		<td align="center" style="padding: 0px 10px; background: #808080">
+			"segacd"
+		</td>
+		<td align="center" style="padding: 0px 10px; background: #909090">
+			Sega CD
+		</td>
+	</tr>
+	<tr>
+		<td align="center" style="padding: 0px 10px; background: #a0a0a0">
+			"dc"
+		</td>
+		<td align="center" style="padding: 0px 10px; background: #b0b0b0">
+			Sega Dreamcast
+		</td>
+	</tr>
+	<tr>
+		<td align="center" style="padding: 0px 10px; background: #808080">
+			"mastersystem"
+		</td>
+		<td align="center" style="padding: 0px 10px; background: #909090">
+			Sega Master System
+		</td>
+	</tr>
+	<tr>
+		<td align="center" style="padding: 0px 10px; background: #a0a0a0">
+			"model2"
+		</td>
+		<td align="center" style="padding: 0px 10px; background: #b0b0b0">
+			Sega Model 2
+		</td>
+	</tr>
+	<tr>
+		<td align="center" style="padding: 0px 10px; background: #808080">
+			"saturn"
+		</td>
+		<td align="center" style="padding: 0px 10px; background: #909090">
+			Sega Saturn
+		</td>
+	</tr>
+	<tr>
+		<td align="center" style="padding: 0px 10px; background: #a0a0a0">
+			"atari2600"
+		</td>
+		<td align="center" style="padding: 0px 10px; background: #b0b0b0">
+			Atari 2600
+		</td>
+	</tr>
+	<tr>
+		<td align="center" style="padding: 0px 10px; background: #808080">
+			"atari5200"
+		</td>
+		<td align="center" style="padding: 0px 10px; background: #909090">
+			Atari 5200
+		</td>
+	</tr>
+	<tr>
+		<td align="center" style="padding: 0px 10px; background: #a0a0a0">
+			"atari7800"
+		</td>
+		<td align="center" style="padding: 0px 10px; background: #b0b0b0">
+			Atari 7800
+		</td>
+	</tr>
+	<tr>
+		<td align="center" style="padding: 0px 10px; background: #808080">
+			"atarijaguar"
+		</td>
+		<td align="center" style="padding: 0px 10px; background: #909090">
+			Atari Jaguar
+		</td>
+	</tr>
+	<tr>
+		<td align="center" style="padding: 0px 10px; background: #a0a0a0">
+			"atarilynx"
+		</td>
+		<td align="center" style="padding: 0px 10px; background: #b0b0b0">
+			Atari Lynx
+		</td>
+	</tr>
+	<tr>
+		<td align="center" style="padding: 0px 10px; background: #808080">
+			"c64"
+		</td>
+		<td align="center" style="padding: 0px 10px; background: #909090">
+			Commodore 64
+		</td>
+	</tr>
+	</table>
+	</div>
+	<h4>ROM types that ROM Gripper supports</h4>
+	<div style="padding: 0px 30px">
+	<table style="border: 1">
+	<tr>
+		<th align="center" style="padding: 0px 10px; background: #505050">
+			romType
+		</th>
+		<th align="center" style="padding: 0px 10px; background: #606060">
+			Game type
+		</th>
+	</tr>
+	<tr>
+		<td align="center" style="padding: 0px 10px; background: #808080">
+			"nes"
+		</td>
+		<td align="center" style="padding: 0px 10px; background: #909090">
+			Nintendo
+		</td>
+	</tr>
+	<tr>
+		<td align="center" style="padding: 0px 10px; background: #a0a0a0">
+			"snes"
+		</td>
+		<td align="center" style="padding: 0px 10px; background: #b0b0b0">
+			Super Nintendo
+		</td>
+	</tr>
+	<tr>
+		<td align="center" style="padding: 0px 10px; background: #808080">
+			"n64"
+		</td>
+		<td align="center" style="padding: 0px 10px; background: #909090">
+			Nintendo 64
+		</td>
+	</tr>
+	<tr>
+		<td align="center" style="padding: 0px 10px; background: #a0a0a0">
+			"nds"
+		</td>
+		<td align="center" style="padding: 0px 10px; background: #b0b0b0">
+			Nintendo DS
+		</td>
+	</tr>
+	<tr>
+		<td align="center" style="padding: 0px 10px; background: #808080">
+			"gba"
+		</td>
+		<td align="center" style="padding: 0px 10px; background: #909090">
+			Gameboy Advance
+		</td>
+	</tr>
+	<tr>
+		<td align="center" style="padding: 0px 10px; background: #a0a0a0">
+			"gbc"
+		</td>
+		<td align="center" style="padding: 0px 10px; background: #b0b0b0">
+			Gameboy Color
+		</td>
+	</tr>
+	<tr>
+		<td align="center" style="padding: 0px 10px; background: #808080">
+			"gamegear"
+		</td>
+		<td align="center" style="padding: 0px 10px; background: #909090">
+			Sega Game Gear
+		</td>
+	</tr>
+	<tr>
+		<td align="center" style="padding: 0px 10px; background: #a0a0a0">
+			"genesis"
+		</td>
+		<td align="center" style="padding: 0px 10px; background: #b0b0b0">
+			Sega Genesis
+		</td>
+	</tr>
+	<tr>
+		<td align="center" style="padding: 0px 10px; background: #808080">
+			"cps1"
+		</td>
+		<td align="center" style="padding: 0px 10px; background: #909090">
+			CPS1
+		</td>
+	</tr>
+	<tr>
+		<td align="center" style="padding: 0px 10px; background: #a0a0a0">
+			"cps2"
+		</td>
+		<td align="center" style="padding: 0px 10px; background: #b0b0b0">
+			CPS2
+		</td>
+	</tr>
+	<tr>
+		<td align="center" style="padding: 0px 10px; background: #808080">
+			"mame"
+		</td>
+		<td align="center" style="padding: 0px 10px; background: #909090">
+			MAME
+		</td>
+	</tr>
+	<tr>
+		<td align="center" style="padding: 0px 10px; background: #a0a0a0">
+			"neogeo"
+		</td>
+		<td align="center" style="padding: 0px 10px; background: #b0b0b0">
+			Neo Geo
+		</td>
+	</tr>
+	<tr>
+		<td align="center" style="padding: 0px 10px; background: #808080">
+			"neogeocd"
+		</td>
+		<td align="center" style="padding: 0px 10px; background: #909090">
+			Neo Geo CD
+		</td>
+	</tr>
+	<tr>
+		<td align="center" style="padding: 0px 10px; background: #a0a0a0">
+			"neogeopocket
+		</td>
+		<td align="center" style="padding: 0px 10px; background: #b0b0b0">
+			Neo Geo Pocket
+		</td>
+	</tr>
+	<tr>
+		<td align="center" style="padding: 0px 10px; background: #808080">
+			"psx"
+		</td>
+		<td align="center" style="padding: 0px 10px; background: #909090">
+			Sony Playstation
+		</td>
+	</tr>
+	<tr>
+		<td align="center" style="padding: 0px 10px; background: #a0a0a0">
+			"gcn"
+		</td>
+		<td align="center" style="padding: 0px 10px; background: #b0b0b0">
+			Nintendo GameCube
+		</td>
+	</tr>
+	<tr>
+		<td align="center" style="padding: 0px 10px; background: #808080">
+			"segacd"
+		</td>
+		<td align="center" style="padding: 0px 10px; background: #909090">
+			Sega CD
+		</td>
+	</tr>
+	<tr>
+		<td align="center" style="padding: 0px 10px; background: #a0a0a0">
+			"dc"
+		</td>
+		<td align="center" style="padding: 0px 10px; background: #b0b0b0">
+			Sega Dreamcast
+		</td>
+	</tr>
+	<tr>
+		<td align="center" style="padding: 0px 10px; background: #808080">
+			"mastersystem"
+		</td>
+		<td align="center" style="padding: 0px 10px; background: #909090">
+			Sega Master System
+		</td>
+	</tr>
+	<tr>
+		<td align="center" style="padding: 0px 10px; background: #a0a0a0">
+			"model2"
+		</td>
+		<td align="center" style="padding: 0px 10px; background: #b0b0b0">
+			Sega Model 2
+		</td>
+	</tr>
+	<tr>
+		<td align="center" style="padding: 0px 10px; background: #808080">
+			"saturn"
+		</td>
+		<td align="center" style="padding: 0px 10px; background: #909090">
+			Sega Saturn
+		</td>
+	</tr>
+	<tr>
+		<td align="center" style="padding: 0px 10px; background: #a0a0a0">
+			"atari2600"
+		</td>
+		<td align="center" style="padding: 0px 10px; background: #b0b0b0">
+			Atari 2600
+		</td>
+	</tr>
+	<tr>
+		<td align="center" style="padding: 0px 10px; background: #808080">
+			"atari5200"
+		</td>
+		<td align="center" style="padding: 0px 10px; background: #909090">
+			Atari 5200
+		</td>
+	</tr>
+	<tr>
+		<td align="center" style="padding: 0px 10px; background: #a0a0a0">
+			"atari7800"
+		</td>
+		<td align="center" style="padding: 0px 10px; background: #b0b0b0">
+			Atari 7800
+		</td>
+	</tr>
+	<tr>
+		<td align="center" style="padding: 0px 10px; background: #808080">
+			"atarijaguar"
+		</td>
+		<td align="center" style="padding: 0px 10px; background: #909090">
+			Atari Jaguar
+		</td>
+	</tr>
+	<tr>
+		<td align="center" style="padding: 0px 10px; background: #a0a0a0">
+			"atarilynx"
+		</td>
+		<td align="center" style="padding: 0px 10px; background: #b0b0b0">
+			Atari Lynx
+		</td>
+	</tr>
+	<tr>
+		<td align="center" style="padding: 0px 10px; background: #808080">
+			"c64"
+		</td>
+		<td align="center" style="padding: 0px 10px; background: #909090">
+			Commodore 64
+		</td>
+	</tr>
+	</table>
+	</div>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+	<a href="mailto:romgripper@gmail.com">Contact us</a>
+      </footer>
+    </div>
+</body>
+</html>
