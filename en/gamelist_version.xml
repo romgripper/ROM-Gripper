@@ -1,7 +1,10 @@
 <gamelist>
 	<disabled/>
-	<version>2.1</version>
-	<change>1. Add PC Engine - TurboGrafx16 games</change>
-	<change>2. Refine the list of GameCube and show screenshots</change>
+	<version>2.2.1</version>
+	<change>1. Support game list manual update</change>
+	<change>2. "I love this game" share</change>
+	<change>3. Fix 404 error by cache screenshots on external storage</change>
+	<change>4. Show game details game faster</change>
+	<change>5. Not support DroidEmuLite any more</change>
 	<url>http://romgripper.github.io/ROM-Gripper/en/gamelist.html</url>
 </gamelist>
