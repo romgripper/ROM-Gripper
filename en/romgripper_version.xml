@@ -1,10 +1,5 @@
 <romgripper>
-	<version>3.7</version>
-	<change>1. Support game list manual update</change>
-	<change>2. "I love this game" share</change>
-	<change>3. Fix 404 error</change>
-	<change>4. Show game details game faster</change>
-	<change>5. Not support DroidEmuLite any more</change>
-	<change>6. Fix that some game cannot be downloaded</change>
+	<version>3.7.1</version>
+	<change>1. Fix that ROM title doesn't shown</change>
 	<url>http://romgripper.github.io/ROM-Gripper/en/romgripper.html</url>
 </romgripper>
